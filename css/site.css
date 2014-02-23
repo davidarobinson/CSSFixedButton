@@ -1,0 +1,58 @@
+﻿body 
+{
+    margin:0px 60px 0px 60px;
+}
+
+
+#FixedButtonRight
+{
+    background:transparent url(../images/FixedButtonRight.png) no-repeat scroll 0px 0px;
+    height:315px;
+    right:0;
+    position:fixed;
+    top:100px;
+    width:30px;
+    z-index:2000;
+    
+}
+
+div#FixedButtonRight:hover
+{
+
+}
+
+#FixedButtonRight a
+{
+    display:block;
+    height:155px;
+    width:30px;
+    margin-top:160px;
+}
+
+
+
+
+#FixedButtonLeft
+{
+    background:transparent url(../images/FixedButtonLeft.png) no-repeat scroll 0px 0px;
+    height:315px;
+    left:-5px;
+    position:fixed;
+    top:0;
+    width:30px;
+    z-index:2000;
+    
+}
+
+div#FixedButtonLeft:hover
+{
+}
+
+#FixedButtonLeft a
+{
+    display:block;
+    height:155px;
+    width:30px;
+    margin-top:160px;
+}
+
